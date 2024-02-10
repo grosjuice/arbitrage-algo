@@ -3,6 +3,17 @@ package com.villeneuve.justin;
 import java.util.*;
 
 /**
+
+ * In the realm of currency exchange, an arbitrage opportunity arises when there is a discrepancy in the exchange rates
+ * between two or more markets. Traders can take advantage of these differences to buy and sell currencies in a way
+ * that ensures a profit with no net investment.
+ * Finds an arbitrage opportunity if it exits using the Bellman-Ford's shortest path algorithm
+ * Uses an adjacency matrix because the graph is dense
+ * The Bellman-Ford algorithm is a single-source shortest path algorithm that can be applied to find the shortest paths
+ * from a source node to all other nodes in a weighted graph. While it's not specifically designed for the max flow
+ * problem, it can be adapted to detect negative-weight cycles, which are relevant in the context of arbitrage
+ * opportunities in currency exchange.
+
  * Finds an arbitrage opportunity if it exits using the Bellman-Ford's shortest path algorithm
  * Uses an adjacency matrix because the graph is dense
  */

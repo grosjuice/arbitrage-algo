@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Implements read and write files methods
+ */
 public class InputOutput {
     public static Graph readFile(String inputFile) {
         ClassLoader classLoader = Main.class.getClassLoader();

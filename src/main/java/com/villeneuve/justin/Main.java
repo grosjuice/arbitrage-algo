@@ -2,10 +2,15 @@ package com.villeneuve.justin;
 
 import java.util.List;
 
+
+/**
+ * If a negative cycle is found, then there is an arbitrage opportunity
+ */
+
 public class Main {
     public static void main(String[] args) {
-        String in = args[0];
-        String out = args[1];
+        String in = args[0]; // input file
+        String out = args[1]; // output file
 
         Graph G = InputOutput.readFile(in);
 
